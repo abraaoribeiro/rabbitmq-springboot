@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Sender {
+public class FanoutSender {
 
 	@Autowired
 	private AmqpTemplate rabbitTemplate;

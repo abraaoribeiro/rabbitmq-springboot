@@ -12,12 +12,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("api/fanout")
-public class fanoutRest {
+public class FanoutRest {
 
-	private final Sender sender;
+	private final FanoutSender sender;
 
 	@Autowired
-	public fanoutRest(Sender sender) {
+	public FanoutRest(FanoutSender sender) {
 		this.sender = sender;
 	}
 

@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class SenderConf {
+public class FanoutConfig {
 	/*
 	 * public final static String topicQueue1Name = "fanout.A"; public final static
 	 * String topicQueue2Name = "fanout.A"; public final static String
